@@ -13,4 +13,4 @@
 #git clone --depth=1 https://github.com/immortalwrt/homeproxy.git package/homeproxy
 
 # luci-app-netwizard
-git clone https://github.com/sirpdboy/luci-app-netwizard.git package/luci-app-netwizard
+#git clone https://github.com/sirpdboy/luci-app-netwizard.git package/luci-app-netwizard

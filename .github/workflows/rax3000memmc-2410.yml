@@ -1,4 +1,4 @@
-name: Build rax3000m-emmc 237-2410
+name: Build rax3000m-emmc-2410
 
 on:
   repository_dispatch:

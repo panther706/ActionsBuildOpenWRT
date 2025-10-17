@@ -4,9 +4,9 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo 'src-git helloworld https://github.com/fw876/helloworld.git' >> feeds.conf.default
-#git clone https://github.com/kiddin9/luci-app-wizard.git package/luci-app-wizard
-echo 'src-git istore https://github.com/linkease/istore;main' >>feeds.conf.default
+#echo 'src-git helloworld https://github.com/fw876/helloworld.git' >> feeds.conf.default
+git clone https://github.com/linkease/istore;main package/istore
+#echo 'src-git istore https://github.com/linkease/istore;main' >>feeds.conf.default
 #echo 'src-git qmodem https://github.com/FUjr/QModem.git;main' >> feeds.conf.default
 
 

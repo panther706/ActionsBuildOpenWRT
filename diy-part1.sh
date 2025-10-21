@@ -8,6 +8,8 @@
 #echo 'src-git istore https://github.com/linkease/istore;main' >>feeds.conf.default
 #echo 'src-git qmodem https://github.com/FUjr/QModem.git;main' >> feeds.conf.default
 git clone https://github.com/linkease/istore.git package/istore
-git clone https://github.com/Siriling/5G-Modem-Support.git package/5g-modem
+#git clone https://github.com/Siriling/5G-Modem-Support.git package/5g-modem
+git clone https://github.com/FUjr/QModem.git package/qmodem
+git clone https://github.com/xiaoxiao29/luci-app-adguardhome.git package/adguardhome
 
 

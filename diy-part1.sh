@@ -8,6 +8,7 @@
 #git clone https://github.com/Siriling/5G-Modem-Support.git package/5g-modem
 #git clone https://github.com/FUjr/QModem.git package/qmodem
 #git clone https://github.com/linkease/istore.git package/istore
-git clone https://github.com/xiaoxiao29/luci-app-adguardhome.git package/adguardhome
+#git clone https://github.com/xiaoxiao29/luci-app-adguardhome.git package/adguardhome
+git clone https://github.com/panther706/luci-app-adguardhome.git package/adguardhome
 
 

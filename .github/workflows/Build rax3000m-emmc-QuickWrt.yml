@@ -9,8 +9,8 @@ env:
   REPO_BRANCH: openwrt-24.10
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: rax3000m-emmc-QuickWrt.config
-  DIY_P1_SH: openwrt-part1.sh
-  DIY_P2_SH: openwrt-part3.sh
+  DIY_P1_SH: openwrt-part3.sh
+  DIY_P2_SH: openwrt-part4.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false

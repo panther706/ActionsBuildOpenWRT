@@ -8,8 +8,8 @@ env:
   REPO_BRANCH: openwrt-24.10
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: rax3km-emmc-q.config
-  DIY_P1_SH: openwrt-part1.sh
-  DIY_P2_SH: openwrt-part2.sh
+  DIY_P1_SH: q-part1.sh
+  DIY_P2_SH: q-part2.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false

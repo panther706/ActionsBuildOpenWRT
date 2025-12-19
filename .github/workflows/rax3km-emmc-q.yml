@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/panther706/Quickwrt-mt798x.git
+  REPO_URL: https://github.com/panther706/immortalwrt-mt798x-all.git
   REPO_BRANCH: openwrt-24.10
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: rax3km-emmc-q.config

@@ -10,3 +10,4 @@
 git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
 git clone https://github.com/sirpdboy/luci-app-adguardhome.git package/adguardhome
 git clone https://github.com/FUjr/QModem.git package/QModem
+git clone https://github.com/fw876/helloworld.git package/helloworld

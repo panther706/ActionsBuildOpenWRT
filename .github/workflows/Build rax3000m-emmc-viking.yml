@@ -1,16 +1,16 @@
-name: Build rax3000m-emmc-237
+name: Build rax3000m-emmc-viking
 
 on:
   repository_dispatch:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-6.6.git
-  REPO_BRANCH: openwrt-24.10-6.6
+  REPO_URL: https://github.com/VIKINGYFY/immortalwrt.git
+  REPO_BRANCH: owrt
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: rax3000m-emmc-237.config
-  DIY_P1_SH: diy-part1.sh
-  DIY_P2_SH: diy-part2.sh
+  CONFIG_FILE: rax3000m-emmc-viking.config
+  DIY_P1_SH: q-part1.sh
+  DIY_P2_SH: q-part3.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false

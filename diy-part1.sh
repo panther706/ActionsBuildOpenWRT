@@ -5,5 +5,5 @@
 
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld.git' >> feeds.conf.default
-git clone https://github.com/sirpdboy/luci-app-adguardhome.git package/adguardhome
-git clone https://github.com/FUjr/QModem.git package/QModem
+#git clone https://github.com/sirpdboy/luci-app-adguardhome.git package/adguardhome
+#git clone https://github.com/FUjr/QModem.git package/QModem

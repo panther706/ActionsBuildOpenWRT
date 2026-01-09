@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/panther706/immortalwrt-mt798x-all.git
-  REPO_BRANCH: openwrt-24.10
+  REPO_URL: https://github.com/panther706/immortalwrt-main.git
+  REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: rax3000m-emmc-q.config
   DIY_P1_SH: imm-part1.sh

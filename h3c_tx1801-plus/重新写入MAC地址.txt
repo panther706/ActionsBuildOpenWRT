@@ -1,3 +1,0 @@
-insmod mtd-rw i_want_a_brick=1       #解锁分区
-
-fw_setenv ethaddr AA:BB:CC:DD:EE:FF  #ABCDEF替换成自己的MAC,重新写入MAC地址

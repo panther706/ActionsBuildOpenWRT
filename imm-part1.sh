@@ -4,6 +4,7 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-#echo 'src-git helloworld https://github.com/fw876/helloworld.git' >> feeds.conf.default
-git clone https://github.com/sirpdboy/luci-app-adguardhome.git package/adguardhome
-git clone https://github.com/FUjr/QModem.git package/QModem
+git clone -b master --depth=1 https://github.com/fw876/helloworld.git package/helloworld
+git clone -b v5 --depth=1 https://github.com/sbwml/luci-app-mosdns package/mosdns
+git clone -b main --depth=1 https://github.com/sirpdboy/luci-app-adguardhome.git package/adguardhome
+git clone -b main --depth=1 https://github.com/FUjr/QModem.git package/QModem
